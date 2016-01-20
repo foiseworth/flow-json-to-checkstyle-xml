@@ -1,0 +1,31 @@
+{
+  "name": "flow-json-to-checkstyle-xml",
+  "version": "1.0.0",
+  "description": "Converts flow json output into checkstyle xml",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foiseworth/flow-json-to-checkstyle-xml.git"
+  },
+  "keywords": [
+    "flow",
+    "json",
+    "xml",
+    "checkstyle"
+  ],
+  "author": "Andrew Herrington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foiseworth/flow-json-to-checkstyle-xml/issues"
+  },
+  "homepage": "https://github.com/foiseworth/flow-json-to-checkstyle-xml#readme",
+  "devDependencies": {
+    "tape": "4.4.0"
+  },
+  "dependencies": {
+    "checkstyle-formatter": "1.0.0"
+  }
+}
