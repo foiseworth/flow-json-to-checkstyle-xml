@@ -6,6 +6,9 @@
   "scripts": {
     "test": "tape tests.js"
   },
+  "bin": {
+    "flow-type-check-json-to-xml": "./stream.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/foiseworth/flow-json-to-checkstyle-xml.git"
