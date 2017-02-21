@@ -32,7 +32,7 @@ module.exports = function(flowJson) {
       var error = {
           line: errorData.message[0].line,
           column: errorData.message[0].start,
-          severity: errorData.message[0].level
+          severity: errorData.level
       }
       
       var errorMsgParts = errorData.message.reduce(function(parts, message) {
