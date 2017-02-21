@@ -5,10 +5,11 @@ var flowJsonFailed = `{
   "passed": false,
   "errors": [
     {
+      "kind": "infer",
+      "level": "error",
       "message": [
         {
           "descr": "string",
-          "level": "error",
           "path": "\/Users\/andrew\/Projects\/bet\/bet-webapp\/client\/stores\/betslip-helpers.js",
           "line": 64,
           "endline": 64,
@@ -33,14 +34,14 @@ var flowJsonFailed = `{
           "start": 59,
           "end": 65
         }
-      ],
-      "kind": "infer"
+      ]
     },
     {
+      "kind": "infer",
+      "level": "warning",
       "message": [
         {
           "descr": "",
-          "level": "warning",
           "path": "\/Users\/andrew\/Projects\/bet\/bet-webapp\/client\/stores\/betslip-helpers.js",
           "line": 65,
           "endline": 65,
@@ -49,21 +50,20 @@ var flowJsonFailed = `{
         },
         {
           "descr": "unreachable code",
-          "level": "warning",
           "path": "",
           "line": 0,
           "endline": 0,
           "start": 1,
           "end": 0
         }
-      ],
-      "kind": "infer"
+      ]
     },
     {
+      "kind": "infer",
+      "level": "warning",
       "message": [
         {
           "descr": "",
-          "level": "warning",
           "path": "\/Users\/andrew\/Projects\/bet\/bet-webapp\/client\/stores\/betslip-store.js",
           "line": 67,
           "endline": 71,
@@ -72,15 +72,13 @@ var flowJsonFailed = `{
         },
         {
           "descr": "unreachable code",
-          "level": "warning",
           "path": "",
           "line": 0,
           "endline": 0,
           "start": 1,
           "end": 0
         }
-      ],
-      "kind": "infer"
+      ]
     }
   ],
   "version": "59d090c1390486bcf585e65f2cfe0214ee74f773 Dec 18 2015 16:49:22"
