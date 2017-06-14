@@ -1,4 +1,4 @@
-# Acquire anchor
+# Flow JSON to check style XML
 [![npm version](https://badge.fury.io/js/aflow-json-to-checkstyle-xml.svg)](http://badge.fury.io/js/aflow-json-to-checkstyle-xml)
 [![Build Status](https://travis-ci.org/foiseworth/aflow-json-to-checkstyle-xml.svg?branch=master)](https://travis-ci.org/foiseworth/aflow-json-to-checkstyle-xml)
 ![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)
